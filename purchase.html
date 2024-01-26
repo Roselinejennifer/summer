@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRJ SHOPPING</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(tj.jpeg);
+            background-size: cover;
+        }
+
+        header {
+            background-color: #ffb6c1; /* Baby Pink Color */
+            text-align: left;
+            padding: 4px;
+            overflow: hidden;
+        }
+
+        .animated-text {
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .letter {
+            display: inline-block;
+            opacity: 0;
+            transform: translateX(-100%);
+            animation: animateLetter 2s linear infinite;
+        }
+
+        @keyframes animateLetter {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            25% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            50% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            75% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        /* Added style for Shop Now button */
+        .shop-now-button {
+            background-color: #ffb6c1; /* Match the header background color */
+            color: #333; /* Match the text color of the footer */
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 30px;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="animated-text">
+            <span class="letter">T</span>
+            <span class="letter">R</span>
+            <span class="letter">J</span>
+            <span class="letter">B</span>
+            <span class="letter">O</span>
+            <span class="letter">T</span>
+            <span class="letter">I</span>
+            <span class="letter">Q</span>
+            <span class="letter">U</span>
+            <span class="letter">E</span>
+            <span class="letter">.</span>
+            <span class="letter">C</span>
+            <span class="letter">O</span>
+            <span class="letter">M</span>
+        </h1>
+    </header>
+s
+    <!-- Shop Now button -->
+    <div class="shop-now-button">
+        <a href="pr2.html">Shop Now</a>
+    </div>
+    <div id="hero">
+        <h2>Welcome to our TRJ SHOPPING</h2>
+        <p>Discover amazing products and great deals</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 TRJ SHOPPING. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
